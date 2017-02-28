@@ -4,12 +4,12 @@
 MenuPanel::MenuPanel(QWidget* parent)
 	: QWidget(parent)
 {
-	setMaximumHeight(100);
+	setMaximumHeight(40);
 }
 
 void MenuPanel::paintEvent(QPaintEvent*)
 {
 	QPainter painter(this);
-	painter.fillRect(this->rect(), Qt::darkYellow);
+	painter.fillRect(this->rect(), Qt::darkGray);
 
 }

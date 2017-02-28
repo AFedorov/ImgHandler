@@ -4,7 +4,7 @@
 BodyPanel::BodyPanel(QWidget *parent)
 	: QWidget(parent)
 {
-	setMinimumSize(800, 600);
+	setMinimumSize(800, 500);
 }
 
 void BodyPanel::paintEvent(QPaintEvent*)
