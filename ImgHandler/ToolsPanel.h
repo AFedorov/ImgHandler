@@ -2,6 +2,7 @@
 #define TOOLSPANEL_H
 
 #include <QtWidgets/QWidget>
+#include <QPushButton>
 
 class ToolsPanel : public QWidget
 {
@@ -9,6 +10,11 @@ class ToolsPanel : public QWidget
 
 public:
 	explicit ToolsPanel(QWidget *parent = 0);
+
+	QWidget *buttonsArea;
+	QPushButton *loadButton;
+	QPushButton *startButton;
+
 	//void paintEvent(QPaintEvent*);
 	//signals:
 
